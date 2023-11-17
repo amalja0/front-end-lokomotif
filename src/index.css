@@ -1,0 +1,12 @@
+:root {
+  font-family: 'Roboto', sans-serif;
+  line-height: 1.5;
+  background: linear-gradient(90deg, rgba(253,202,198,1) 0%, rgba(252,248,223,1) 100%);
+
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+
