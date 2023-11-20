@@ -29,7 +29,7 @@ export const statusDescription = [
     },
     {
         status: 8,
-        description: "Retired Locomotive"
+        description: "Retired Lokomotif"
     },
     {
         status: 9,

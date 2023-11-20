@@ -12,7 +12,7 @@ function Header() {
       borderRadius: '1rem' 
     }}>
       <Container sx={{ textAlign: 'center' }}>
-        <Typography variant='h4' fontWeight={"bold"}>Lokomotif Dashboard</Typography>
+        <Typography variant='h4' fontWeight={"bold"} sx={{ color: '#ad917f' }}>Lokomotif Dashboard</Typography>
       </Container>
     </div>
   )

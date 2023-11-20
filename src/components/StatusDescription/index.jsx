@@ -25,14 +25,14 @@ function StatusDescription() {
       }}
     > 
       <Grid item>
-        <Typography sx={{ color: '#855ef5' }}>Lokomotif Status Description</Typography>
+        <Typography variant='h6' fontWeight={"bold"} sx={{ color: '#855ef5' }}>Lokomotif Status Description</Typography>
       </Grid>
       <Grid2 item>
         {
           detailedStatusDescription.map((status) => {
             return (
               <Typography sx={{ marginBottom: '0.25rem' }}>
-                Status of <span style={{ color: '#855ef5' }}>{status.status}</span>: {status.description}
+                Status of <span style={{ color: '#855ef5', fontWeight:'bold' }}>{status.status}</span>: {status.description}
               </Typography>
             )
           })
