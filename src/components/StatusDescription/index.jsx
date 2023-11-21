@@ -1,10 +1,6 @@
-import { Grid, Typography } from '@mui/material'
-import React, { useState } from 'react'
-import { Chart } from 'chart.js/auto'
-import { CategoryScale } from 'chart.js/auto'
-import { Bar } from 'react-chartjs-2'
-import Grid2 from '@mui/material/Unstable_Grid2/Grid2'
-import { statusDescription } from '../../utils/Constants'
+import { Grid, Typography } from '@mui/material';
+import React from 'react';
+import { statusDescription } from '../../utils/Constants';
 
 function StatusDescription() {
   const detailedStatusDescription = statusDescription;
@@ -27,7 +23,7 @@ function StatusDescription() {
       <Grid item>
         <Typography variant='h6' fontWeight={"bold"} sx={{ color: '#855ef5' }}>Lokomotif Status Description</Typography>
       </Grid>
-      <Grid2 item>
+      <Grid item>
         {
           detailedStatusDescription.map((status) => {
             return (
@@ -37,7 +33,7 @@ function StatusDescription() {
             )
           })
         }
-      </Grid2>
+      </Grid>
     </Grid>
   )
 }
